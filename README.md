@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/logo.png" width="140" alt="Switch for Hornet logo">
+<img src="docs/icon.png" width="140" alt="Switch for Hornet logo">
 
 # Switch for Hornet
 
