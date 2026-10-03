@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Foreground: a stompbox. Scaled to 0.75 to sit comfortably inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.75"
+        android:scaleY="0.75">
+        <!-- Enclosure -->
+        <path android:pathData="M41,21h26a8,8 0,0 1,8 8v50a8,8 0,0 1,-8 8h-26a8,8 0,0 1,-8 -8v-50a8,8 0,0 1,8 -8z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:endColor="#5ED88C"
+                    android:endX="54"
+                    android:endY="87"
+                    android:startColor="#88EAB9"
+                    android:startX="54"
+                    android:startY="21"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+        <!-- Knobs -->
+        <path
+            android:fillColor="#333333"
+            android:pathData="M37.5,35a6.5,6.5 0,1 0,13 0a6.5,6.5 0,1 0,-13 0z" />
+        <path
+            android:fillColor="#333333"
+            android:pathData="M57.5,35a6.5,6.5 0,1 0,13 0a6.5,6.5 0,1 0,-13 0z" />
+        <path
+            android:pathData="M44,35L44,29.8"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="1.8" />
+        <path
+            android:pathData="M64,35L67.7,31.3"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="1.8" />
+        <!-- LED -->
+        <path
+            android:fillColor="#FF3B30"
+            android:pathData="M51.2,50a2.8,2.8 0,1 0,5.6 0a2.8,2.8 0,1 0,-5.6 0z" />
+        <!-- Footswitch -->
+        <path
+            android:fillColor="#333333"
+            android:pathData="M45,70a9,9 0,1 0,18 0a9,9 0,1 0,-18 0z" />
+        <path
+            android:fillColor="#D5D8DD"
+            android:pathData="M47.6,70a6.4,6.4 0,1 0,12.8 0a6.4,6.4 0,1 0,-12.8 0z" />
+    </group>
+</vector>

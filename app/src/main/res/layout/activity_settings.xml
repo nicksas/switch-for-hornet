@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0C10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Settings"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/names_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#80FFFFFF"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_settings_card"
+            android:orientation="vertical"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp">
+
+            <TextView
+                style="@style/SectionTitle"
+                android:layout_marginStart="12dp"
+                android:text="SETUPS" />
+
+            <LinearLayout
+                android:id="@+id/setups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/add_setup"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ Add setup" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_settings_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/SectionTitle"
+                android:text="PEDAL" />
+
+            <Switch
+                android:id="@+id/vibration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="52dp"
+                android:text="Vibrate on switch"
+                android:textSize="17sp" />
+
+            <Switch
+                android:id="@+id/keep_screen_on"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="52dp"
+                android:text="Keep screen awake"
+                android:textSize="17sp" />
+
+            <Switch
+                android:id="@+id/auto_reconnect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="52dp"
+                android:text="Auto reconnect"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_settings_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/SectionTitle"
+                android:text="AMP" />
+
+            <TextView
+                android:id="@+id/device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
+                android:textColor="#CCFFFFFF"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/forget_device"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forget amp" />
+
+                <Button
+                    android:id="@+id/export_log"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Export log" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:textColor="#59FFFFFF"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monochrome (Android 13+ themed icons): tinted by the system.
+     Enclosure with cut-outs for the knobs, LED and footswitch. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.75"
+        android:scaleY="0.75">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M41,21h26a8,8 0,0 1,8 8v50a8,8 0,0 1,-8 8h-26a8,8 0,0 1,-8 -8v-50a8,8 0,0 1,8 -8z
+                M37.5,35a6.5,6.5 0,1 0,13 0a6.5,6.5 0,1 0,-13 0z
+                M57.5,35a6.5,6.5 0,1 0,13 0a6.5,6.5 0,1 0,-13 0z
+                M51.2,50a2.8,2.8 0,1 0,5.6 0a2.8,2.8 0,1 0,-5.6 0z
+                M45,70a9,9 0,1 0,18 0a9,9 0,1 0,-18 0z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M47.6,70a6.4,6.4 0,1 0,12.8 0a6.4,6.4 0,1 0,-12.8 0z" />
+        <path
+            android:pathData="M44,35L44,29.8"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="1.8" />
+        <path
+            android:pathData="M64,35L67.7,31.3"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="1.8" />
+    </group>
+</vector>

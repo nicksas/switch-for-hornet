@@ -1,0 +1,18 @@
+# Private: vendor app files, device dumps, raw logs, signing keys
+.private/
+
+# Build
+.gradle/
+.kotlin/
+build/
+app/build/
+dist/
+local.properties
+*.jks
+*.keystore
+
+# Python
+research/.venv/
+__pycache__/
+
+.DS_Store
